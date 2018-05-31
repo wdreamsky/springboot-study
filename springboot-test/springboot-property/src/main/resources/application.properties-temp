@@ -1,0 +1,7 @@
+#server.port=8088
+#自定义配置
+weibi.english.name=biwei
+#配置变量的引用
+weibi.msg=hello,spring boot, ${weibi.english.name}
+#随机值
+weibi.number=${random.int}
